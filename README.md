@@ -4,7 +4,7 @@
 # Abstract
 We used Machine learning techniques to evaluate past data pertaining to the stock market and world affairs of the corresponding time period, in order to make predictions in stock trends. We built a model that will be able to buy and sell stock based on profitable prediction, without any human interactions. The model uses Natural Language Processing (NLP) to make smart “decisions” based on current affairs, article, etc. With NLP and the basic rule of probability, our goal is to increases the accuracy of the stock predictions.
 
-# Introduction
+# Workflow
 Natural Language Processing is a technique used by a computer to understand and manipulate natural languages. By natural languages, we mean all human derived languages. Natural language processing or NLP for short is used to analyze text and let machines derive meaning from the input. This human-computer interaction allows us to come up with many different applications to bring man and machine as one. For example, on google, if we use 
 google translation, that is NLP and so is speech recognition. In our project, we make use of some established NLP techniques to evaluate past data pertaining to the stock market and world affairs of the corresponding time period, in order to make predictions in stock trends. 
  
@@ -31,7 +31,7 @@ Support Vector Machines
 # Environment
 We used Jupyter Notebook which is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. We perform data cleaning and transformation, statistical modeling and machine learning in this environment.
 
-![alt text](https://raw.githubusercontent.com/sathvikraju/Stock-Market-Prediction-using-Natural-Language-Processing/branch/path/to/img.png)
+![alt text](Stock-Market-Prediction-using-Natural-Language-Processing/chartTo Use.png)
  
 Random forests had highest accuracy on the a Bi-gram model as shown in the chart. The prediction accuracy was 85.97%. Using Natural Language Processing techniques, we were able to accurately predict the stock market trends 85% of the time. 
 
