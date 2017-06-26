@@ -4,7 +4,7 @@
 # Abstract
 We used Machine learning techniques to evaluate past data pertaining to the stock market and world affairs of the corresponding time period, in order to make predictions in stock trends. We built a model that will be able to buy and sell stock based on profitable prediction, without any human interactions. The model uses Natural Language Processing (NLP) to make smart “decisions” based on current affairs, article, etc. With NLP and the basic rule of probability, our goal is to increases the accuracy of the stock predictions.
 
-# Workflow
+# Introduction
 Natural Language Processing is a technique used by a computer to understand and manipulate natural languages. By natural languages, we mean all human derived languages. Natural language processing or NLP for short is used to analyze text and let machines derive meaning from the input. This human-computer interaction allows us to come up with many different applications to bring man and machine as one. For example, on google, if we use 
 google translation, that is NLP and so is speech recognition. In our project, we make use of some established NLP techniques to evaluate past data pertaining to the stock market and world affairs of the corresponding time period, in order to make predictions in stock trends. 
  
@@ -18,7 +18,9 @@ Since our goal is to predict the tendency of the stock of a specific company, th
  
 With the raw data, we cannot proceed much further until we manipulate the data to suit our analysis and convert the data into vectors that are much easier to work on. For this, we use Word2Vec. This is a group of related models used to create word embeddings. Word embeddings are sets of language modeling and feature learning techniques in NLP where words or phrases from the vocabulary are mapped to vectors of real numbers. These vectors make up the training and test sets. English is really easy – see all those spaces? That makes it really easy to tokenize – in other words, to determine what’s a word. So we just use a simple set of rules for English tokenization.
 This raw data is manipulated using python. We first split the data into lists of words but these lists are flooded with HTML tags and punctuations. We cleaned up the data and removed all HTML tags and punctuations. Then we moved forward with removing stop words. Stop words are words that do not contribute to the meaning or sentiment of the data such as ‘the’, ‘is’, ‘and’, etc. We have also converted all the letters to lowercase to make a more even data set to play with.
-Workflow
+
+# Workflow
+
 With the training data set, we got to convert them into numeric representation for machine learning. For this, we use ‘Bag of Words’ model. The Bag of Words model learns a vocabulary from all of the documents, then models each document by counting the number of times each word appears. These values are the feature vectors that are derived from the model. 
 The thing is we cannot stop at just using the Bag of Words model as this generates feature vectors that only give importance to the number of occurrences of words rather than where they occur and with what words they accompany. To get past this, we use the n-gram model or the skip gram model. Now, with this model, we can store the order of words in the way they occur in the data. The number of words stored in a single order depends on the value on n. Say n=2, calls for a bigram model which stores sets of 2 words in order.
  	We use Natural Language Processing (NLP) to interpret and construct the data set. The data are composed of a row of sentences. In order to reduce the complexity, the stop words such as “a”, “and”, “the” have been cleaned. In addition, we came across the N-gram model which helps predict the next set of words in an n- worded text or speech. The Google’s Word2Vec deep learning method are also provided to focus on the sentiment of the words by means of the bag of words concept. This method is suitable for us because it doesn’t need labels in order to create meaningful representations. If there are enough training data, it would produces word vector with intriguing characteristics so that we could analyze the relationship between the words that have similar meanings.
@@ -31,7 +33,7 @@ Support Vector Machines
 # Environment
 We used Jupyter Notebook which is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. We perform data cleaning and transformation, statistical modeling and machine learning in this environment.
 
-![alt text](Stock-Market-Prediction-using-Natural-Language-Processing/chartTo Use.png)
+!(https://github.com/SATHVIKRAJU/Stock-Market-Prediction-using-Natural-Language-Processing/blob/master/chartTo%20Use.png)
  
 Random forests had highest accuracy on the a Bi-gram model as shown in the chart. The prediction accuracy was 85.97%. Using Natural Language Processing techniques, we were able to accurately predict the stock market trends 85% of the time. 
 
