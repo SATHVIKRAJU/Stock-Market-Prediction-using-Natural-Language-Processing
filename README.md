@@ -54,7 +54,7 @@ We are looking at the stock of one company. We can expand it to work for multipl
 Perform multi class classification for various parameters of stock trading.
 
  
-References
+# References
 
 F. Xu and V. Keelj, "Collective Sentiment Mining of Microblogs in 24-Hour Stock Price Movement Prediction," 2014 IEEE 16th Conference on Business Informatics, Geneva, 2014, pp. 60-67. doi: 10.1109/CBI.2014.37
  
