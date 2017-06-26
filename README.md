@@ -33,7 +33,8 @@ Support Vector Machines
 # Environment
 We used Jupyter Notebook which is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. We perform data cleaning and transformation, statistical modeling and machine learning in this environment.
 
-!(https://github.com/SATHVIKRAJU/Stock-Market-Prediction-using-Natural-Language-Processing/blob/master/chartTo%20Use.png)
+![chart](https://raw.githubusercontent.com/SATHVIKRAJU/Stock-Market-Prediction-using-Natural-Language-Processing/blob/master/chartTo%20Use.png)
+
  
 Random forests had highest accuracy on the a Bi-gram model as shown in the chart. The prediction accuracy was 85.97%. Using Natural Language Processing techniques, we were able to accurately predict the stock market trends 85% of the time. 
 
